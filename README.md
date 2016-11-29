@@ -1,15 +1,15 @@
-## 接口返回错误
+### 接口返回错误
 ```js
 {
   "error": {
-    "code": "RESOURCE/ARTICLE_NOT_FOUND",
+    "code": "ARTICLE/NOT_FOUND",
     "message": "文章不存在"
   },
   "data": null
 }
 ```
 
-## 接口返回成功
+### 接口返回成功
 ```js
 {
   "error": null,
@@ -24,7 +24,7 @@
 }
 ```
 
-## 分页
+### 分页
 ```js
 {
   "error": null,
