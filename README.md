@@ -65,7 +65,7 @@ PATCH /collection/resource：返回完整的资源对象
 DELETE /collection/resource：返回一个空文档
 ```
 
-## 返回 JSON 格式
+## 返回 JSON 格式数据
 返回错误
 ```js
 {
