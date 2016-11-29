@@ -14,7 +14,7 @@ HEAD：获取资源的元数据。
 OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的。
 ```
 
-## 例子
+例子
 ```
 GET /zoos：列出所有动物园
 POST /zoos：新建一个动物园
@@ -26,7 +26,7 @@ GET /zoos/ID/animals：列出某个指定动物园的所有动物
 DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 ```
 
-## 具体例子
+具体例子
 ```
 GET    https://api.liruan.cn/v1/articles?[offset=0][&limit=10][&title=文章标题][&order_by=views]
 GET    https://api.liruan.cn/v1/articles/1
@@ -65,8 +65,8 @@ PATCH /collection/resource：返回完整的资源对象
 DELETE /collection/resource：返回一个空文档
 ```
 
-## 接口返回 JSON
-接口返回错误
+## 返回 JSON 格式
+返回错误
 ```js
 {
   "error": {
@@ -77,7 +77,7 @@ DELETE /collection/resource：返回一个空文档
 }
 ```
 
-接口返回成功
+返回成功
 ```js
 {
   "error": null,
@@ -92,7 +92,7 @@ DELETE /collection/resource：返回一个空文档
 }
 ```
 
-分页数据
+返回分页数据
 ```js
 {
   "error": null,
