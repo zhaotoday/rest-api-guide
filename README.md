@@ -28,7 +28,7 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 
 具体例子
 ```
-GET    https://api.liruan.cn/v1/articles?[offset=0][&limit=10][&title=文章标题][&order_by=views]
+GET    https://api.liruan.cn/v1/articles[?offset=0][&limit=10][&title=文章标题][&order_by=views]
 GET    https://api.liruan.cn/v1/articles/1
 POST   https://api.liruan.cn/v1/articles
 PATCH  https://api.liruan.cn/v1/articles
