@@ -35,6 +35,7 @@ PATCH https://api.liruan.cn/v1/articles
 DELETE https://api.liruan.cn/v1/articles/1
 DELETE https://api.liruan.cn/v1/articles?id=1,2,3
 GET https://api.liruan.cn/v1/articles/1/authors/2
+POST https://api.lruan.cn/v1/actions/login
 ```
 
 ## 状态码
