@@ -38,7 +38,7 @@ GET https://api.liruan.cn/v1/articles/1/authors/2
 POST https://api.liruan.cn/v1/actions/login
 ```
 
-搜索例子
+条件查询例子
 ```
 ?$filter=title like 文章标题,created_at gte 1475855919&$offset=0&$limit=10&$order_by=views
 ```
