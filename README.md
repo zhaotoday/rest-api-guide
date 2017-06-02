@@ -28,7 +28,7 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 
 具体例子
 ```
-GET https://api.liruan.cn/v1/articles[?$filter=title like 文章标题,created_at gte 1475855919][&$offset=0][&$limit=10][&$order_by=views]
+GET https://api.liruan.cn/v1/articles
 GET https://api.liruan.cn/v1/articles/1
 POST https://api.liruan.cn/v1/articles
 PATCH https://api.liruan.cn/v1/articles
@@ -36,6 +36,11 @@ DELETE https://api.liruan.cn/v1/articles/1
 DELETE https://api.liruan.cn/v1/articles?id=1,2,3
 GET https://api.liruan.cn/v1/articles/1/authors/2
 POST https://api.liruan.cn/v1/actions/login
+```
+
+搜索例子
+```
+?$filter=title like 文章标题,created_at gte 1475855919&$offset=0&$limit=10&$order_by=views
 ```
 
 ## 状态码
@@ -68,7 +73,7 @@ DELETE /collection/resource：返回一个空文档
 
 ## 返回 JSON 格式数据
 返回错误
-```json
+```js
 {
   "error": {
     "code": "ARTICLES/NOT_FOUND",
@@ -79,7 +84,7 @@ DELETE /collection/resource：返回一个空文档
 ```
 
 返回成功
-```json
+```js
 {
   "error": null,
   "data": {
@@ -94,7 +99,7 @@ DELETE /collection/resource：返回一个空文档
 ```
 
 返回分页数据
-```json
+```js
 {
   "error": null,
   "data": {
