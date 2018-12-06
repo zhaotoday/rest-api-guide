@@ -1,6 +1,7 @@
 ## 参考
-http://www.ruanyifeng.com/blog/2014/05/restful_api.html  
-http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html
+- http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html
+- http://www.ruanyifeng.com/blog/2014/05/restful_api.html  
+- http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html
 
 ## HTTP 动词
 对于资源的具体操作类型，由 HTTP 动词表示（括号里是对应的 SQL 命令）。
